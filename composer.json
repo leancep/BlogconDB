@@ -1,0 +1,16 @@
+{
+    "name": "blogs/cepeda",
+    "type": "project",
+    "autoload":{
+        "psr-4": {
+            "Blogs\\":"src/",
+            "Tests\\":"tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0",
+        "mongodb/mongodb": "^1.6"
+    }
+}
